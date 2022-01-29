@@ -1,0 +1,40 @@
+{
+  "name": "challenges-plateform-rest-api",
+  "version": "1.0.0",
+  "description": "REST API for the Etician challenges websit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node src/index.js"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "challenge",
+    "etic",
+    "defis"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "author": "DevTeam",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-flow-strip-types": "^7.16.7",
+    "bcryptjs": "^2.4.3"
+  }
+}
